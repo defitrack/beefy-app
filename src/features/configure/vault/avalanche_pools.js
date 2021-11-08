@@ -576,7 +576,7 @@ export const avalanchePools = [
     tokenDescriptionUrl: '#',
     earnedToken: 'mooJoeMiMatic-AVAX',
     earnedTokenAddress: '0xe419f17821F10Ce741F67232406F6a8585d52005',
-    earnContractAddress: '0xe4 19f17821F10Ce741F67232406F6a8585d52005',
+    earnContractAddress: '0xe419f17821F10Ce741F67232406F6a8585d52005',
     pricePerFullShare: 1,
     tvl: 0,
     oracle: 'lps',
