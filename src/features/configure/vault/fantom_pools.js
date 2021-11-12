@@ -38,7 +38,7 @@ export const fantomPools = [
     name: 'Baron von Binance',
     token: 'Baron von Binance',
     tokenDescription: 'Beethoven X',
-    tokenAddress: '0x5e65474c8400d0bb76edbbe066b2d2e7b0b6e7fb',
+    tokenAddress: '0x5E65474c8400d0BB76eDBBE066B2D2E7b0b6e7fb',
     tokenDecimals: 18,
     tokenDescriptionUrl: '#',
     earnedToken: 'mooBeetBaronVonBinance',
