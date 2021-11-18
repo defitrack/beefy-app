@@ -34,6 +34,39 @@ export const avalanchePools = [
       'https://www.traderjoexyz.com/#/trade?outputCurrency=0xd6070ae98b8069de6b494332d1a1a81b6179d960',
   },
   {
+    id: 'spell-avax-mim-crv',
+    logo: 'uncategorized/MIM2CRV.svg',
+    name: 'MIM/USDC/USDT',
+    token: 'MIM-3PoolV2',
+    tokenDescription: 'Curve (MIM)',
+    tokenAddress: '0xAEA2E71b631fA93683BCF256A8689dFa0e094fcD',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooAbrcdbrMIM-3PoolV2',
+    earnedTokenAddress: '0x275eF36E6097c68bE8765c238100BF061B38A922',
+    earnContractAddress: '0x275eF36E6097c68bE8765c238100BF061B38A922',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'lps',
+    oracleId: 'curve-avax-mim',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'MIM',
+    assets: ['MIM', 'USDCe', 'USDTe'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    stratType: 'StratMultiLP',
+    withdrawalFee: '0%',
+    addLiquidityUrl: 'https://avax.curve.fi/factory/4/deposit',
+  },
+  {
     id: 'bankerjoe-avax',
     logo: 'single-assets/AVAX.svg',
     name: 'AVAX',
@@ -63,7 +96,8 @@ export const avalanchePools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
   },
   {
     id: 'bankerjoe-weth.e',
@@ -96,7 +130,8 @@ export const avalanchePools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0x49D5c2BdFfac6CE2BFdB6640F4F80f226bc10bAB',
   },
   {
     id: 'bankerjoe-wbtc.e',
@@ -129,7 +164,8 @@ export const avalanchePools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0x50b7545627a5162F82A992c33b87aDc75187B218',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0x50b7545627a5162F82A992c33b87aDc75187B218',
   },
   {
     id: 'bankerjoe-usdc.e',
@@ -162,7 +198,8 @@ export const avalanchePools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664',
   },
   {
     id: 'bankerjoe-usdt.e',
@@ -195,10 +232,11 @@ export const avalanchePools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0xc7198437980c041c805A1EDcbA50c1Ce5db95118',
   },
   {
-    id: 'bankerjoe-dai.e',
+    id: 'bankerjoe-dai.e-eol',
     logo: 'single-assets/DAI.svg',
     name: 'DAI.e',
     token: 'DAI.e',
@@ -214,8 +252,8 @@ export const avalanchePools = [
     oracle: 'tokens',
     oracleId: 'DAI.e',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
     platform: 'Banker Joe',
     assets: ['DAIe'],
     risks: [
@@ -227,8 +265,10 @@ export const avalanchePools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'SingleStake',
-    withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
+    retireReason: 'rewards',
+    withdrawalFee: '0%',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0xd586E7F844cEa2F87f50152665BCbc2C279D8d70',
   },
   {
     id: 'bankerjoe-link.e',
@@ -261,7 +301,8 @@ export const avalanchePools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0x5947BB275c521040051D82396192181b413227A3',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0x5947BB275c521040051D82396192181b413227A3',
   },
   {
     id: 'bankerjoe-mim',
@@ -294,7 +335,8 @@ export const avalanchePools = [
     ],
     stratType: 'SingleStake',
     withdrawalFee: '0.01%',
-    buyTokenUrl: 'https://www.traderjoexyz.com/#/trade?outputCurrency=0x130966628846BFd36ff31a822705796e8cb8C18D',
+    buyTokenUrl:
+      'https://www.traderjoexyz.com/#/trade?outputCurrency=0x130966628846BFd36ff31a822705796e8cb8C18D',
   },
   {
     id: 'blizz-blzz-avax',
@@ -2535,33 +2577,6 @@ export const avalanchePools = [
     addLiquidityUrl: 'https://snowball.network/stablevault/',
   },
 
-  {
-    id: 'com-usdt-avax-eol',
-    logo: 'avax-pairs/USDT-AVAX.png',
-    name: 'USDT-AVAX LP',
-    token: 'USDT-AVAX CLP',
-    tokenDescription: 'Complus',
-    tokenAddress: '0xe64bfAe83BA234aB85BceF5B7A92427E29b3AA11',
-    tokenDecimals: 18,
-    tokenDescriptionUrl: '#',
-    earnedToken: 'mooComplusUSDT-AVAX',
-    earnedTokenAddress: '0x14d07853560436aEe38BE12DD66d944B07D5E59F',
-    earnContractAddress: '0x14d07853560436aEe38BE12DD66d944B07D5E59F',
-    pricePerFullShare: 1,
-    tvl: 0,
-    oracle: 'lps',
-    oracleId: 'com-usdt-avax',
-    oraclePrice: 0,
-    depositsPaused: true,
-    status: 'eol',
-    retireReason: 'rewards',
-    platform: 'Complus',
-    assets: ['USDT', 'AVAX'],
-    addLiquidityUrl:
-      'https://avadex.complus.exchange/#/add/AVAX/0xde3A24028580884448a5397872046a019649b084',
-    buyTokenUrl:
-      'https://avadex.complus.exchange/#/swap?inputCurrency=0xde3A24028580884448a5397872046a019649b084&outputCurrency=AVAX',
-  },
   {
     id: 'com-eth-avax-eol',
     logo: 'avax-pairs/ETH-AVAX.png',
