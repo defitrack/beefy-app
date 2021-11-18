@@ -1,5 +1,38 @@
 export const moonriverPools = [
   {
+    id: 'movr-bifi-maxi',
+    logo: 'single-assets/BIFI.png',
+    name: 'BIFI Maxi',
+    token: 'BIFI',
+    tokenDescription: 'Beefy.Finance',
+    tokenAddress: '0x173fd7434B8B50dF08e3298f173487ebDB35FD14',
+    tokenDecimals: 18,
+    tokenDescriptionUrl: '#',
+    earnedToken: 'mooMoonriverBIFI',
+    earnedTokenAddress: '0xc9a509dA14525Ad3710e9448a0839EE2e90E48B1',
+    earnContractAddress: '0xc9a509dA14525Ad3710e9448a0839EE2e90E48B1',
+    pricePerFullShare: 1,
+    tvl: 0,
+    oracle: 'tokens',
+    oracleId: 'BIFI',
+    oraclePrice: 0,
+    depositsPaused: false,
+    status: 'active',
+    platform: 'Beefy.Finance',
+    assets: ['BIFI'],
+    risks: [
+      'COMPLEXITY_LOW',
+      'BATTLE_TESTED',
+      'IL_NONE',
+      'MCAP_MEDIUM',
+      'AUDIT',
+      'CONTRACTS_VERIFIED',
+    ],
+    withdrawalFee: '0%',
+    buyTokenUrl:
+      'https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x173fd7434B8B50dF08e3298f173487ebDB35FD14',
+  },
+  {
     id: 'solarbeam-frax-wmovr',
     name: 'FRAX-MOVR',
     token: 'FRAX-MOVR LP',
@@ -697,5 +730,5 @@ export const moonriverPools = [
       'https://app.solarbeam.io/exchange/swap?inputCurrency=0x6bD193Ee6D2104F14F94E2cA6efefae561A4334B&outputCurrency=0xbD90A6125a84E5C512129D622a75CDDE176aDE5E',
     addLiquidityUrl:
       'https://app.solarbeam.io/exchange/add/0xbD90A6125a84E5C512129D622a75CDDE176aDE5E/0x6bD193Ee6D2104F14F94E2cA6efefae561A4334B',
-  }
+  },
 ];

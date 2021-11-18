@@ -14,6 +14,7 @@ import { harmonyPools } from '../src/features/configure/vault/harmony_pools.js';
 import { arbitrumPools } from '../src/features/configure/vault/arbitrum_pools.js';
 import { celoPools } from '../src/features/configure/vault/celo_pools.js';
 import { moonriverPools } from '../src/features/configure/vault/moonriver_pools.js';
+import { cronosPools } from '../src/features/configure/vault/cronos_pools.js';
 import { vaultABI, strategyABI } from '../src/features/configure/abi.js';
 
 const chainPools = {
@@ -26,6 +27,7 @@ const chainPools = {
   arbitrum: arbitrumPools,
   celo: celoPools,
   moonriver: moonriverPools,
+  cronos: cronosPools,
 };
 
 const chainRpcs = {
@@ -38,6 +40,7 @@ const chainRpcs = {
   arbitrum: process.env.ARBITRUM_RPC || 'https://arb1.arbitrum.io/rpc',
   celo: process.env.CELO_RPC || 'https://forno.celo.org',
   moonriver: process.env.MOONRIVER_RPC || 'https://rpc.moonriver.moonbeam.network',
+  cronos: process.env.CRONOS_RPC || 'https://evm-cronos.crypto.org',
 };
 
 const overrides = {
@@ -50,14 +53,13 @@ const overrides = {
 };
 
 const oldValidOwners = [
-  addressBook.bsc.platforms.beefyfinance.oldTimelock,
   addressBook.fantom.platforms.beefyfinance.devMultisig,
-  addressBook.arbitrum.platforms.beefyfinance.devMultisig,
-  '0xd529b1894491a0a26B18939274ae8ede93E81dbA', // admin eoa
-  '0xC362FA359031A081D21Cb9d57c29e055FecbcB06', // admin eoa
-  '0x6d28afD25a1FBC5409B1BeFFf6AEfEEe2902D89F', // strat timelock owner
-  '0x4E2a43a0Bf6480ee8359b7eAE244A9fBe9862Cdf', // vault owner
-  '0x09dc95959978800E57464E962724a34Bb4Ac1253', // polygon dev multisig
+  addressBook.polygon.platforms.beefyfinance.devMultisig,
+  // '0xd529b1894491a0a26B18939274ae8ede93E81dbA', // admin eoa
+  // '0xC362FA359031A081D21Cb9d57c29e055FecbcB06', // admin eoa
+  // '0x6d28afD25a1FBC5409B1BeFFf6AEfEEe2902D89F', // strat timelock owner
+  // '0x4E2a43a0Bf6480ee8359b7eAE244A9fBe9862Cdf', // vault owner
+  // '0x09dc95959978800E57464E962724a34Bb4Ac1253', // polygon dev multisig
 ];
 
 const oldValidFeeRecipients = {
