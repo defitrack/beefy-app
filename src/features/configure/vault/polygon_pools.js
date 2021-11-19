@@ -1130,6 +1130,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['USDC', 'WUSD'],
     risks: [
@@ -1200,6 +1201,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'USDC'],
     risks: [
@@ -2888,6 +2890,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'WBTC'],
     risks: [
@@ -4026,6 +4029,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['WBTC', 'USDC'],
     risks: [
@@ -4059,6 +4063,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['WBTC', 'ETH'],
     risks: [
@@ -4093,6 +4098,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['MATIC', 'ETH'],
     risks: [
@@ -4126,9 +4132,9 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: true,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['PolyDoge', 'MATIC'],
-    retireReason: 'rewards',
     addLiquidityUrl:
       'https://swap.wault.finance/polygon/#/add/MATIC/0x8A953CfE442c5E8855cc6c61b1293FA648BAE472',
   },
@@ -4150,6 +4156,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['SNX', 'ETH'],
     risks: [
@@ -4183,6 +4190,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['LINK', 'ETH'],
     risks: [
@@ -4216,6 +4224,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['AAVE', 'ETH'],
     risks: [
@@ -4249,6 +4258,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['DAI', 'ETH'],
     risks: [
@@ -4282,6 +4292,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['DAI', 'USDC'],
     risks: [
@@ -4317,6 +4328,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['MATIC', 'USDC'],
     risks: [
@@ -4351,6 +4363,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['USDT', 'USDC'],
     withdrawalFee: '0.01%',
@@ -4386,6 +4399,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'USDC'],
     risks: [
@@ -4422,6 +4436,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     risks: [
       'COMPLEXITY_LOW',
@@ -4456,6 +4471,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'MATIC'],
     risks: [
@@ -4492,6 +4508,7 @@ export const polygonPools = [
     oraclePrice: 0,
     depositsPaused: false,
     status: 'eol',
+    retireReason: 'rewards',
     platform: 'WaultFinance',
     assets: ['BIFI', 'MATIC'],
     risks: [
