@@ -1113,7 +1113,7 @@ export const polygonPools = [
       'https://quickswap.exchange/#/swap?outputCurrency=0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
   },
   {
-    id: 'wexpoly-usdc-wusd',
+    id: 'wexpoly-usdc-wusd-eol',
     name: 'USDC-WUSD LP',
     token: 'USDC-WUSD WLP',
     tokenDescription: 'WaultFinance',
@@ -1129,7 +1129,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-usdc-wusd',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['USDC', 'WUSD'],
     risks: [
@@ -1183,7 +1183,7 @@ export const polygonPools = [
       'https://app.apeswap.finance/swap?outputCurrency=0x09211Dc67f9fe98Fb7bBB91Be0ef05f4a12FA2b2',
   },
   {
-    id: 'wexpoly-usdc-wex',
+    id: 'wexpoly-usdc-wex-eol',
     name: 'USDC-WEXpoly LP',
     token: 'USDC-WEXpoly WLP',
     tokenDescription: 'WaultFinance',
@@ -1199,7 +1199,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-usdc-wex',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'USDC'],
     risks: [
@@ -2870,7 +2870,7 @@ export const polygonPools = [
     addLiquidityUrl: 'https://app.iron.finance/swap/pools/is3usd/deposit',
   },
   {
-    id: 'wexpoly-wbtc-wex',
+    id: 'wexpoly-wbtc-wex-eol',
     logo: 'polygon/WEXPOLY-BTC.png',
     name: 'WEXpoly-WBTC LP',
     token: 'WEXpoly-WBTC WLP',
@@ -2887,7 +2887,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-wbtc-wex',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'WBTC'],
     risks: [
@@ -4009,7 +4009,7 @@ export const polygonPools = [
       'https://quickswap.exchange/#/swap?outputCurrency=0x9aceb6f749396d1930abc9e263efc449e5e82c13',
   },
   {
-    id: 'wexpoly-wbtc-usdc',
+    id: 'wexpoly-wbtc-usdc-eol',
     name: 'WBTC-USDC LP',
     token: 'WBTC-USDC WLP',
     tokenDescription: 'WaultFinance',
@@ -4025,7 +4025,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-wbtc-usdc',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['WBTC', 'USDC'],
     risks: [
@@ -4042,7 +4042,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
   },
   {
-    id: 'wexpoly-wbtc-eth',
+    id: 'wexpoly-wbtc-eth-eol',
     name: 'WBTC-ETH LP',
     token: 'WBTC-ETH WLP',
     tokenDescription: 'WaultFinance',
@@ -4058,7 +4058,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-wbtc-eth',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['WBTC', 'ETH'],
     risks: [
@@ -4075,7 +4075,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619',
   },
   {
-    id: 'wexpoly-matic-eth',
+    id: 'wexpoly-matic-eth-eol',
     logo: 'polygon/ETH-MATIC.png',
     name: 'MATIC-ETH LP',
     token: 'MATIC-ETH WLP',
@@ -4092,7 +4092,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-matic-eth',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['MATIC', 'ETH'],
     risks: [
@@ -4133,7 +4133,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/MATIC/0x8A953CfE442c5E8855cc6c61b1293FA648BAE472',
   },
   {
-    id: 'wexpoly-snx-eth',
+    id: 'wexpoly-snx-eth-eol',
     name: 'SNX-ETH LP',
     token: 'SNX-ETH WLP',
     tokenDescription: 'WaultFinance',
@@ -4149,7 +4149,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-snx-eth',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['SNX', 'ETH'],
     risks: [
@@ -4166,7 +4166,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x50B728D8D964fd00C2d0AAD81718b71311feF68a',
   },
   {
-    id: 'wexpoly-link-eth',
+    id: 'wexpoly-link-eth-eol',
     name: 'LINK-ETH LP',
     token: 'LINK-ETH WLP',
     tokenDescription: 'WaultFinance',
@@ -4182,7 +4182,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-link-eth',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['LINK', 'ETH'],
     risks: [
@@ -4199,7 +4199,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39',
   },
   {
-    id: 'wexpoly-aave-eth',
+    id: 'wexpoly-aave-eth-eol',
     name: 'AAVE-ETH LP',
     token: 'AAVE-ETH WLP',
     tokenDescription: 'WaultFinance',
@@ -4215,7 +4215,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-aave-eth',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['AAVE', 'ETH'],
     risks: [
@@ -4232,7 +4232,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xD6DF932A45C0f255f85145f286eA0b292B21C90B',
   },
   {
-    id: 'wexpoly-dai-eth',
+    id: 'wexpoly-dai-eth-eol',
     name: 'DAI-ETH LP',
     token: 'DAI-ETH WLP',
     tokenDescription: 'WaultFinance',
@@ -4248,7 +4248,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-dai-eth',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['DAI', 'ETH'],
     risks: [
@@ -4265,7 +4265,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
   },
   {
-    id: 'wexpoly-usdc-dai',
+    id: 'wexpoly-usdc-dai-eol',
     name: 'USDC-DAI LP',
     token: 'USDC-DAI WLP',
     tokenDescription: 'WaultFinance',
@@ -4281,7 +4281,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-usdc-dai',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['DAI', 'USDC'],
     risks: [
@@ -4299,7 +4299,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
   },
   {
-    id: 'wexpoly-matic-usdc',
+    id: 'wexpoly-matic-usdc-eol',
     logo: 'polygon/MATIC-USDC.png',
     name: 'MATIC-USDC LP',
     token: 'MATIC-USDC WLP',
@@ -4316,7 +4316,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-matic-usdc',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['MATIC', 'USDC'],
     risks: [
@@ -4333,7 +4333,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/MATIC/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
   },
   {
-    id: 'wexpoly-usdc-usdt',
+    id: 'wexpoly-usdc-usdt-eol',
     logo: 'polygon/USDC-USDT.png',
     name: 'USDC-USDT LP',
     token: 'USDC-USDT WLP',
@@ -4350,7 +4350,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-usdc-usdt',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['USDT', 'USDC'],
     withdrawalFee: '0.01%',
@@ -4368,7 +4368,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/add/0x2791bca1f2de4661ed88a30c99a7a9449aa84174/0xc2132D05D31c914a87C6611C10748AEb04B58e8F',
   },
   {
-    id: 'wexpoly-wex-usdc',
+    id: 'wexpoly-wex-usdc-eol',
     logo: 'polygon/WEX-USDC.png',
     name: 'WEXpoly-USDC LP',
     token: 'WEXpoly-USDC LP',
@@ -4385,7 +4385,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-wex-usdc',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'USDC'],
     risks: [
@@ -4404,7 +4404,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/swap?outputCurrency=0x4c4BF319237D98a30A929A96112EfFa8DA3510EB',
   },
   {
-    id: 'wexpoly-wex',
+    id: 'wexpoly-wex-eol',
     logo: 'polygon/WEX.png',
     name: 'WEXpoly',
     token: 'WEXpoly',
@@ -4421,7 +4421,7 @@ export const polygonPools = [
     oracleId: 'WEXpoly',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     risks: [
       'COMPLEXITY_LOW',
@@ -4438,7 +4438,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/swap?outputCurrency=0x4c4BF319237D98a30A929A96112EfFa8DA3510EB',
   },
   {
-    id: 'wexpoly-wex-matic',
+    id: 'wexpoly-wex-matic-eol',
     logo: 'polygon/WEX-MATIC.png',
     name: 'WEXpoly-MATIC LP',
     token: 'WEXpoly-MATIC LP',
@@ -4455,7 +4455,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-wex-matic',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['WEXpoly', 'MATIC'],
     risks: [
@@ -4474,7 +4474,7 @@ export const polygonPools = [
       'https://swap.wault.finance/polygon/#/swap?outputCurrency=0x4c4BF319237D98a30A929A96112EfFa8DA3510EB',
   },
   {
-    id: 'wexpoly-bifi-matic',
+    id: 'wexpoly-bifi-matic-eol',
     logo: 'polygon/BIFI-MATIC.png',
     name: 'BIFI-MATIC LP',
     token: 'BIFI-MATIC LP',
@@ -4491,7 +4491,7 @@ export const polygonPools = [
     oracleId: 'wexpoly-bifi-matic',
     oraclePrice: 0,
     depositsPaused: false,
-    status: 'active',
+    status: 'eol',
     platform: 'WaultFinance',
     assets: ['BIFI', 'MATIC'],
     risks: [
