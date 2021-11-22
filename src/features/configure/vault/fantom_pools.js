@@ -61,7 +61,7 @@ export const fantomPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
-    withdrawalFee: '0.05%',
+    withdrawalFee: '0%',
     addLiquidityUrl:
       'https://spookyswap.finance/add/0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83/0x9f47f313acfd4bdc52f4373b493eae7d5ac5b765',
     buyTokenUrl: 'https://spookyswap.finance/swap',
