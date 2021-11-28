@@ -30,6 +30,16 @@ const nfty = {
     twitter: 'https://twitter.com/NFTYNetwork',
   },
 };
+const mogul = {
+  logo: 'stake/mogul/logo.png',
+  background: 'stake/mogul/bg.png',
+  text: 'Mogul is an NFT and DeFi platform for film and entertainment, bridging Hollywood and blockchain technology. The STARS token powers the Mogul platform and offers rewards from movies. The Mogul platform has an NFT auction house, marketplace, and other products in the metaverse to bring movie fans closer to the action.',
+  website: 'https://www.mogulproductions.com/',
+  social: {
+    telegram: 'https://t.me/mogulproductions',
+    twitter: 'https://twitter.com/mogulofficial_',
+  },
+};
 
 export const bscStakePools = [
   {
@@ -67,6 +77,130 @@ export const bscStakePools = [
   },
 
   {
+    id: 'moo_banana-bnb-stars-mogul2',
+    name: 'Mogul',
+    assets: ['STARS', 'BNB'],
+    token: 'mooApeBNB-STARS',
+    tokenDecimals: 18,
+    tokenAddress: '0xd6Cf54a0545675AdB0aa5175b9461Cd3d6a61f8e',
+    tokenOracle: 'lps',
+    tokenOracleId: 'banana-bnb-stars',
+    earnedToken: 'STARS',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0xbD83010eB60F12112908774998F65761cf9f6f9a',
+    earnContractAddress: '0xbCcDCD99d395Ce3F1FcbC9aB40bCfcce2a1894e6',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'STARS',
+    partnership: true,
+    status: 'active',
+    isMooStaked: true,
+    periodFinish: 1640685927,
+    partners: [mogul],
+  },
+
+  {
+    id: 'moo_1INCH-blockmine',
+    name: 'BlockMine',
+    logo: 'single-assets/INCH.png',
+    token: 'moo1INCH1INCH',
+    tokenDecimals: 18,
+    tokenAddress: '0xBa53AF4C2f1649F82e8070FB306DDBF2771A1950',
+    tokenOracle: 'tokens',
+    tokenOracleId: '1INCH',
+    earnedToken: 'NUGGET',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0xE0B58022487131eC9913C1F3AcFD8F74FC6A6C7E',
+    earnContractAddress: '0x6e3C65E24e9AF2f7C63Ab0a205aF314f3325b678',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'NUGGET',
+    partnership: true,
+    status: 'active',
+    isMooStaked: true,
+    periodFinish: 1639221118,
+    partners: [
+      {
+        logo: 'stake/blockmine/logo.png',
+        background: 'stake/blockmine/bg.png',
+        text: "Blockmine is aiming to create the most sustainable farming ecosystem in the DeFi space by providing an unique token evolution. Stop coffee boilin' and get out of the saloon - it's time to gitty up and make some juicy GOLDNUGGETS.",
+        website: 'https://block-mine.io/',
+        social: {
+          telegram: 'https://t.me/blockmine_io',
+          twitter: 'https://twitter.com/blockmine_io',
+        },
+      },
+    ],
+  },
+
+  {
+    id: 'moo_BANANA-bishares',
+    name: 'BiShares',
+    logo: 'degens/BANANA.svg',
+    token: 'mooBanana',
+    tokenDecimals: 18,
+    tokenAddress: '0xED4ea41Daf652964789b16e3Ff76eC07d99d2340',
+    tokenOracle: 'tokens',
+    tokenOracleId: 'BANANA',
+    earnedToken: 'BISON',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0x19A6Da6e382b85F827088092a3DBe864d9cCba73',
+    earnContractAddress: '0xa9b758AF585cc4262B2ed9C774eDb78eCe017BCB',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'BISON',
+    partnership: true,
+    status: 'active',
+    isMooStaked: true,
+    periodFinish: 1638722576,
+    partners: [
+      {
+        logo: 'stake/bishares/logo.png',
+        background: 'stake/bishares/bg.png',
+        text: "Decentralized Exchange Traded Funds (dETFs) for safe crypto diversification & yield farming. BiShares offers Yield Bearing Funds both in stable coins and LP's that auto compound and take the best average yields across multiple platforms. Their selection of funds will cover all your bases from blue-chip to FOMO tokens.",
+        website: 'https://bishares.finance/',
+        social: {
+          telegram: 'https://t.me/bishares',
+          twitter: 'https://twitter.com/BiSharesFinance',
+        },
+      },
+    ],
+  },
+  {
+    id: 'moo_bison-bison-wbnb-bishares',
+    name: 'BiShares',
+    assets: ['BISON', 'BNB'],
+    token: 'mooBisonBISON-BNB',
+    tokenDecimals: 18,
+    tokenAddress: '0x813EBFD51604E0066bFA4E0Bf6d2324eA8CebE60',
+    tokenOracle: 'lps',
+    tokenOracleId: 'bison-bison-bnb',
+    earnedToken: 'BISON',
+    earnedTokenDecimals: 18,
+    earnedTokenAddress: '0x19A6Da6e382b85F827088092a3DBe864d9cCba73',
+    earnContractAddress: '0xF3787668fd04EA5B78724a509522a11613B6119f',
+    earnContractAbi: govPoolABI,
+    earnedOracle: 'tokens',
+    earnedOracleId: 'BISON',
+    partnership: true,
+    status: 'active',
+    isMooStaked: true,
+    periodFinish: 1639067984,
+    partners: [
+      {
+        logo: 'stake/bishares/logo.png',
+        background: 'stake/bishares/bg.png',
+        text: "Decentralized Exchange Traded Funds (dETFs) for safe crypto diversification & yield farming. BiShares offers Yield Bearing Funds both in stable coins and LP's that auto compound and take the best average yields across multiple platforms. Their selection of funds will cover all your bases from blue-chip to FOMO tokens.",
+        website: 'https://bishares.finance/',
+        social: {
+          telegram: 'https://t.me/bishares',
+          twitter: 'https://twitter.com/BiSharesFinance',
+        },
+      },
+    ],
+  },
+
+  {
     id: 'moo_belt-beltbtc-betu',
     name: 'BETU',
     logo: 'single-assets/BTCB.svg',
@@ -90,7 +224,7 @@ export const bscStakePools = [
       {
         logo: 'stake/betu/logo.png',
         background: 'stake/betu/bg.png',
-        text: 'BetU.io is here to revolutionize online betting. From traditional sports to e-sports, you can now place bets on BetU’s Fantasy league and earn up to $10,000 in crypto prizes every week! BetU.io leverages Chainlink technologies to distribute these weekly prizes.',
+        text: 'BetU is here to revolutionize both the gambling and gaming industries. From traditional sports to e-sports, you can now place bets on BetU’s Fantasy league and earn up to $10,000 in crypto rewards every week! No risk, real rewards. Play now at play.betufantasy.com',
         website: 'https://betu.io/',
         social: {
           telegram: 'https://t.me/betucommunity',
@@ -233,18 +367,7 @@ export const bscStakePools = [
     status: 'active',
     isMooStaked: true,
     periodFinish: 1637924268,
-    partners: [
-      {
-        logo: 'stake/mogul/logo.png',
-        background: 'stake/mogul/bg.png',
-        text: 'Mogul is an NFT and DeFi platform for film and entertainment, bridging Hollywood and blockchain technology. The STARS token powers the Mogul platform and offers rewards from movies. The Mogul platform has an NFT auction house, marketplace, and other products in the metaverse to bring movie fans closer to the action.',
-        website: 'https://www.mogulproductions.com/',
-        social: {
-          telegram: 'https://t.me/mogulproductions',
-          twitter: 'https://twitter.com/mogulofficial_',
-        },
-      },
-    ],
+    partners: [mogul],
   },
 
   {
